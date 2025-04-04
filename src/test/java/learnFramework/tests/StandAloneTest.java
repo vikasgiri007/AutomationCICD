@@ -26,7 +26,7 @@ public class StandAloneTest extends BaseTest{
 	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub		
 
-//		New changes to check CICD
+
 
 		ProductCatalogue productCatalogue= landingPage.loginApplication(input.get("email"), input.get("password"));
 
